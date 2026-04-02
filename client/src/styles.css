@@ -1,0 +1,14 @@
+:root {
+  color: #f1f0ff;
+  background: #0f0f13;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+.container { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+.card { background: #22222f; border-radius: 12px; padding: 1rem; margin-bottom: 1rem; }
+.row { display: flex; gap: 1rem; flex-wrap: wrap; }
+.btn { background: #7c5cfc; border: 0; color: white; padding: .6rem 1rem; border-radius: 8px; cursor: pointer; }
+.nav a { color: #f1f0ff; text-decoration: none; margin-right: .8rem; }
+input, select { background: #1a1a24; border: 1px solid #333; color: white; padding: .5rem; border-radius: 6px; }
